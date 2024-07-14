@@ -2,7 +2,7 @@
 pragma solidity ^0.8.17;
 import "./interfaces/IERC20.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
-import {LengthNotMatch, AlreadyRegist, NotInvestor, AlreadyClaimed, WholeClaimed, EmptyTokenClaim, OutofRange, Faild, NotYet, ExceedAmount, NotMatchedAmount, ExceedTime, MoreTimeDelay, NotAirdropUser, TimeNotSet} from "./Errors.sol";
+import {NotInvestor, WholeClaimed, EmptyTokenClaim, OutofRange, NotYet} from "./Errors.sol";
 
 interface IKolsIDO {
     struct User {
